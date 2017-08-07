@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+
+
+
+
+.board {
+  width: 600px;
+  height: 600px;
+  border: 5px solid #a7a9ad;
+  margin: 40px auto 0;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 5px solid #a7a9ad;
+  font-size: 180px;
+  align-items: center;
+  display: inline-flex;
+  vertical-align: top;
+}
+.square p{
+  margin: auto;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: #7de6f8;
+}
